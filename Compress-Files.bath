@@ -1,9 +1,10 @@
 REM if you want to compress some file without UI and automatic
+REM -cvfz is wrong because the f switch think that format file is z !!!
 
-tar -cvfz archive.tar.gz file1 file2 directory1
+tar -cvzf archive.tar.gz file1 file2 directory1
 
 
 REM if you want to uncompress some file without UI and automatic
 
-tar -xvfz archive.tar.gz
+tar -xvzf archive.tar.gz
 
